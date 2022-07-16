@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Testimonals from './components/Testimonals';
@@ -8,9 +8,9 @@ import Intro from './components/Intro'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Topbar/>
-      <div className='sections'>
+      <div className="sections">
         <Intro/>
         <Portfolio/>
         <Works/>

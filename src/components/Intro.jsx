@@ -2,6 +2,6 @@ import "./Intro.scss"
 
 export default function Intro() {
   return (
-    <div>Intro</div>
+    <div className="intro">Intro</div>
   )
 }
