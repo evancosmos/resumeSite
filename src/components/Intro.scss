@@ -1,4 +1,20 @@
 .intro {
-    background-color: bisque;
     display: flex;
+
+    .left {
+        flex: 0.5;
+
+        .imgContainer{
+            overflow: hidden;
+            height: 700px;
+            background-color: crimson;
+            border-radius: 50%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+    }
+    .right {
+        flex: 0.5;
+    }
 }

@@ -1,7 +1,9 @@
 import "./Portfolio.scss"
 
-export default function Portfolio() {
+export default function Portfolio() { //id is for anchor tag to work
   return (
-    <div>Portfolio</div>
+    <div id="portfolio"> 
+      Portfolio
+    </div>
   )
 }
