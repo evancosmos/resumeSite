@@ -1,5 +1,6 @@
 import "./Intro.scss"
 import myFace from "../images/me.jpg"
+import arrow from "../images/angle-small-down.png"
 
 export default function Intro() {
   return (
@@ -8,9 +9,10 @@ export default function Intro() {
         <img className="imgContainer" src={myFace} alt=""/>
       </div>
       <div className="right">
-        Hi, I'm <br/> Evan Clark
-        <a href="#portfolio">
-          replace this with arrow
+        <h3>Hi there, I'm</h3>
+        <h1>Evan Clark</h1>
+        <a className="arrow" href="#portfolio">
+          <img src={arrow} alt=""/>
         </a>
       </div>
     </div>
